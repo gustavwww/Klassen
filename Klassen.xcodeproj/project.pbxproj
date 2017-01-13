@@ -54,14 +54,46 @@
 		9723E8EF1E2986A4002094B9 /* Klassen */ = {
 			isa = PBXGroup;
 			children = (
+				9723E9051E2987F3002094B9 /* Resources */,
+				9723E9041E2987EC002094B9 /* Model */,
+				9723E9031E2987E6002094B9 /* View */,
+				9723E9021E2987DF002094B9 /* Controller */,
 				9723E8F01E2986A4002094B9 /* AppDelegate.swift */,
-				9723E8F21E2986A4002094B9 /* ViewController.swift */,
 				9723E8F41E2986A4002094B9 /* Main.storyboard */,
-				9723E8F71E2986A4002094B9 /* Assets.xcassets */,
 				9723E8F91E2986A4002094B9 /* LaunchScreen.storyboard */,
+				9723E8F71E2986A4002094B9 /* Assets.xcassets */,
 				9723E8FC1E2986A4002094B9 /* Info.plist */,
 			);
 			path = Klassen;
+			sourceTree = "<group>";
+		};
+		9723E9021E2987DF002094B9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9723E8F21E2986A4002094B9 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9723E9031E2987E6002094B9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9723E9041E2987EC002094B9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9723E9051E2987F3002094B9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
