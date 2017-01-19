@@ -7,5 +7,7 @@ target 'Klassen' do
 
   # Pods for Klassen
   pod 'Firebase'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
 
 end

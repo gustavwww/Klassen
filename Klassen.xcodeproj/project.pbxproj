@@ -8,25 +8,43 @@
 
 /* Begin PBXBuildFile section */
 		9723E8F11E2986A4002094B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9723E8F01E2986A4002094B9 /* AppDelegate.swift */; };
-		9723E8F31E2986A4002094B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9723E8F21E2986A4002094B9 /* ViewController.swift */; };
+		9723E8F31E2986A4002094B9 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9723E8F21E2986A4002094B9 /* LoginVC.swift */; };
 		9723E8F61E2986A4002094B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9723E8F41E2986A4002094B9 /* Main.storyboard */; };
 		9723E8F81E2986A4002094B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9723E8F71E2986A4002094B9 /* Assets.xcassets */; };
 		9723E8FB1E2986A4002094B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9723E8F91E2986A4002094B9 /* LaunchScreen.storyboard */; };
 		97BE63A51E29967500C4FAE2 /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BE63A41E29967500C4FAE2 /* Shadow.swift */; };
 		97BE63A71E2996DF00C4FAE2 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BE63A61E2996DF00C4FAE2 /* HeaderView.swift */; };
+		97D8BD761E313C180011F320 /* LogoImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D8BD751E313C180011F320 /* LogoImage.swift */; };
+		97D8BD781E3146300011F320 /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D8BD771E3146300011F320 /* RoundBtn.swift */; };
+		97D8BD7A1E3157070011F320 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 97D8BD791E3157070011F320 /* GoogleService-Info.plist */; };
+		97DA7A7C1E2D2B2B008F5DEA /* FrontView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DA7A7B1E2D2B2B008F5DEA /* FrontView.swift */; };
+		97DA7A7E1E2D3001008F5DEA /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DA7A7D1E2D3001008F5DEA /* TextField.swift */; };
+		97DA7A801E2D349E008F5DEA /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DA7A7F1E2D349E008F5DEA /* MainButton.swift */; };
+		97DA7A821E2D3A56008F5DEA /* ImageOriantation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DA7A811E2D3A56008F5DEA /* ImageOriantation.swift */; };
+		97DA7A841E2D3DAF008F5DEA /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DA7A831E2D3DAF008F5DEA /* LogoView.swift */; };
+		97DA7A861E2D3F05008F5DEA /* LogoLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DA7A851E2D3F05008F5DEA /* LogoLabel.swift */; };
 		AA30AA58AC45D293BF0F31FC /* Pods_Klassen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8CF03143EE2A346EC860AB8 /* Pods_Klassen.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9723E8ED1E2986A4002094B9 /* Klassen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Klassen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9723E8F01E2986A4002094B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9723E8F21E2986A4002094B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9723E8F21E2986A4002094B9 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		9723E8F51E2986A4002094B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9723E8F71E2986A4002094B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9723E8FA1E2986A4002094B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9723E8FC1E2986A4002094B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97BE63A41E29967500C4FAE2 /* Shadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
 		97BE63A61E2996DF00C4FAE2 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		97D8BD751E313C180011F320 /* LogoImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoImage.swift; sourceTree = "<group>"; };
+		97D8BD771E3146300011F320 /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
+		97D8BD791E3157070011F320 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		97DA7A7B1E2D2B2B008F5DEA /* FrontView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontView.swift; sourceTree = "<group>"; };
+		97DA7A7D1E2D3001008F5DEA /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		97DA7A7F1E2D349E008F5DEA /* MainButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
+		97DA7A811E2D3A56008F5DEA /* ImageOriantation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageOriantation.swift; sourceTree = "<group>"; };
+		97DA7A831E2D3DAF008F5DEA /* LogoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		97DA7A851E2D3F05008F5DEA /* LogoLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoLabel.swift; sourceTree = "<group>"; };
 		9CB0F71A28D69DB73C8EA64C /* Pods-Klassen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Klassen.release.xcconfig"; path = "Pods/Target Support Files/Pods-Klassen/Pods-Klassen.release.xcconfig"; sourceTree = "<group>"; };
 		F8CF03143EE2A346EC860AB8 /* Pods_Klassen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Klassen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA673C8CBE45467EFB3A2A69 /* Pods-Klassen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Klassen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Klassen/Pods-Klassen.debug.xcconfig"; sourceTree = "<group>"; };
@@ -84,6 +102,7 @@
 				9723E8F91E2986A4002094B9 /* LaunchScreen.storyboard */,
 				9723E8F71E2986A4002094B9 /* Assets.xcassets */,
 				9723E8FC1E2986A4002094B9 /* Info.plist */,
+				97D8BD791E3157070011F320 /* GoogleService-Info.plist */,
 			);
 			path = Klassen;
 			sourceTree = "<group>";
@@ -91,7 +110,7 @@
 		9723E9021E2987DF002094B9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				9723E8F21E2986A4002094B9 /* ViewController.swift */,
+				9723E8F21E2986A4002094B9 /* LoginVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -100,6 +119,14 @@
 			isa = PBXGroup;
 			children = (
 				97BE63A61E2996DF00C4FAE2 /* HeaderView.swift */,
+				97DA7A7B1E2D2B2B008F5DEA /* FrontView.swift */,
+				97DA7A7D1E2D3001008F5DEA /* TextField.swift */,
+				97DA7A7F1E2D349E008F5DEA /* MainButton.swift */,
+				97DA7A811E2D3A56008F5DEA /* ImageOriantation.swift */,
+				97DA7A831E2D3DAF008F5DEA /* LogoView.swift */,
+				97DA7A851E2D3F05008F5DEA /* LogoLabel.swift */,
+				97D8BD751E313C180011F320 /* LogoImage.swift */,
+				97D8BD771E3146300011F320 /* RoundBtn.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -198,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9723E8FB1E2986A4002094B9 /* LaunchScreen.storyboard in Resources */,
+				97D8BD7A1E3157070011F320 /* GoogleService-Info.plist in Resources */,
 				9723E8F81E2986A4002094B9 /* Assets.xcassets in Resources */,
 				9723E8F61E2986A4002094B9 /* Main.storyboard in Resources */,
 			);
@@ -258,10 +286,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97D8BD761E313C180011F320 /* LogoImage.swift in Sources */,
 				97BE63A51E29967500C4FAE2 /* Shadow.swift in Sources */,
-				9723E8F31E2986A4002094B9 /* ViewController.swift in Sources */,
+				97DA7A841E2D3DAF008F5DEA /* LogoView.swift in Sources */,
+				9723E8F31E2986A4002094B9 /* LoginVC.swift in Sources */,
+				97DA7A801E2D349E008F5DEA /* MainButton.swift in Sources */,
 				9723E8F11E2986A4002094B9 /* AppDelegate.swift in Sources */,
+				97DA7A821E2D3A56008F5DEA /* ImageOriantation.swift in Sources */,
+				97DA7A7E1E2D3001008F5DEA /* TextField.swift in Sources */,
 				97BE63A71E2996DF00C4FAE2 /* HeaderView.swift in Sources */,
+				97D8BD781E3146300011F320 /* RoundBtn.swift in Sources */,
+				97DA7A7C1E2D2B2B008F5DEA /* FrontView.swift in Sources */,
+				97DA7A861E2D3F05008F5DEA /* LogoLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +423,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3KE4G6G7E4;
 				INFOPLIST_FILE = Klassen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gustavwww.Klassen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -401,6 +438,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3KE4G6G7E4;
 				INFOPLIST_FILE = Klassen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gustavwww.Klassen;
 				PRODUCT_NAME = "$(TARGET_NAME)";

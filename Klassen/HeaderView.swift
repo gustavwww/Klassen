@@ -16,7 +16,7 @@ class HeaderView: UIView, Shadow {
         didSet {
             
             putRadiusShadow(radius: shadowRadius)
-            
+            layer.shadowOffset = CGSize(width: 0, height: 3)
         }
         
     }

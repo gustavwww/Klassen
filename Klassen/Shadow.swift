@@ -20,4 +20,14 @@ extension Shadow where Self: UIView {
         
     }
     
+    func putOffsetShadow(offset: CGSize) {
+        
+        layer.shadowColor = UIColor.black.cgColor
+        layer.shadowOpacity = 0.7
+        layer.shadowOffset = offset
+        
+        
+    }
+    
+    
 }
