@@ -9,7 +9,7 @@
 import UIKit
 
 @IBDesignable
-class MainButton: UIButton, Shadow {
+class MainButton: UIButton, Shadow, Shake {
 
     override func awakeFromNib() {
         super.awakeFromNib()
