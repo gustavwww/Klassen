@@ -80,7 +80,7 @@ class LoginVC: UIViewController {
                 
                 self.user = User(user: user!)
                 
-                
+                self.performSegue(withIdentifier: "toLogged", sender: self.user)
             })
             
             
@@ -96,6 +96,23 @@ class LoginVC: UIViewController {
         
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if let destination = segue.destination as? LoggedVC {
+            
+            if let user = sender as? User {
+                destination.user = user
+            }
+            
+        }
+        
+    }
+    
+    @IBAction func createPressed(_ sender: Any) {
+        
+        performSegue(withIdentifier: "toCreate", sender: nil)
+        
+    }
 
 }
 

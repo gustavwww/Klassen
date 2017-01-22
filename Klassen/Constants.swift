@@ -15,6 +15,6 @@ class Constants {
     static let shared = Constants()
     
     let FBRef = FIRDatabase.database().reference()
-    
+    let FBRef_USERS = FIRDatabase.database().reference().child("users")
     
 }
