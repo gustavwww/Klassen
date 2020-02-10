@@ -15,7 +15,14 @@ class LoggedVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        print("LoggedVC View Loaded")
         
+    }
+    
+    @IBAction func menuPressed(_ sender: UIButton) {
+        
+        print("Button event Fired")
+        performSegue(withIdentifier: "toMenu", sender: nil)
         
     }
 

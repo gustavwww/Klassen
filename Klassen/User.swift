@@ -39,6 +39,24 @@ class User {
         return _isOnline
     }
     
+    var firstName: String {
+        
+        if _fullName == nil {
+            
+            return ""
+        }
+        
+        let array = _fullName.components(separatedBy: " ")
+        
+        
+        return array[0]
+    }
+    
+    
+    
+    
+    
+    
     func uploadDefaultDetails(fullName: String, isOnline: Bool) {
         
         Constants.shared.FBRef_USERS.child(FIRuser.uid).setValue(["fullname": fullName, "isOnline": isOnline])
